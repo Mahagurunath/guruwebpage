@@ -7,30 +7,6 @@
     <link rel="stylesheet" href="na.css">
 </head>
 <body>
-    <div class="container">
-        <h1>bank loan id generation</h1>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="loan-amount">Loan Amount:</label>
-            <input type="text" id="loan-amount" name="loan-amount" required>
-
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-
-            <button type="button" onclick="generateLoanID()">Generate bankid</button>
-
-            <label for="loan-id">Loan ID:</label>
-            <input type="text" id="loan-id" name="loan-id" readonly>
-        </form>
-    </div>
-
-    <script>
-        function generateLoanID() {
-            const loanID = 'BANK' + Math.floor(Math.random() * 1000000);
-            document.getElementById('loan-id').value = loanID;
-        }
-    </script>
+    <h2>hii</h2>
 </body>
 </html>
